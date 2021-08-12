@@ -1,0 +1,45 @@
+.DS_store
+# Metadata
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+atlassian*
+/nbproject
+/sitemap
+/.idea
+/.gitattributes
+
+# Magento specific configuration
+/src/app/.htaccess
+/src/app/bootstrap.php
+/src/app/autoload.php
+/src/app/functions.php
+/src/app/etc/di.xml
+/src/app/etc/vendor_path.php
+/src/app/etc/NonComposerComponentRegistration.php
+
+# Files re-generated through composer
+/src/CHANGELOG.md
+/src/CONTRIBUTING.md
+/src/COPYING.txt
+/src/ISSUE_TEMPLATE.md
+/src/LICENSE_AFL.txt
+/src/LICENSE.txt
+/src/Gruntfile.js.sample
+/src/nginx.conf.sample
+/src/package.json.sample
+/src/php.ini.sample
+/src/vendor
+/src/bin
+/src/dev
+/src/lib
+/src/pub
+/src/setup
+/src/var
+
+# Excludes (or a better alternative might be to symlink this to shared folders
+!/pub/media/catalog
+!/pub/media/downloadable
+!/var/composer_home

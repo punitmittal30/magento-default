@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Honasa_Backend
+ *
+ * @category  XML
+ * @package   Honasa\Backend
+ * @author    Puneet Mittal <puneet.m@mamaearth.in>
+ * @copyright 2021 Copyright (c) Honasa Consumer Pvt. Ltd
+ * @link      https://mamaearth.in/
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Backend\Block\Widget\Grid" type="Honasa\Backend\Block\Rewrite\Widget\Grid"/>
+    <preference for="Magento\Customer\Block\Form\Login" type="Honasa\Backend\Block\Form\Login"/>
+</config>
